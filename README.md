@@ -1,6 +1,6 @@
 # ReactNative_Expo
 
-/* CLONE */
+/* Clone */
 # git clone https://github.com/REPostrano/ReactNative_Expo.git
 
 /* Command line */
