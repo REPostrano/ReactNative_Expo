@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     },
     darkThemeText: {
         color: 'white',
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: '900',
     },
     textDarkMode: {

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     },
     lightThemeText: {
         color: 'white',
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: '900',
     },
     textLightMode: {
