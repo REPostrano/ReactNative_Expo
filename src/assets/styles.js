@@ -88,9 +88,10 @@ const styles = StyleSheet.create({
         fontSize: 16,
         lineHeight: 20,
     },
-
-
-
+    image: {
+        flex: 1,
+        justifyContent: "center"
+    },
 });
 
 export default styles;

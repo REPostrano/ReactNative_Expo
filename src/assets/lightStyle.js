@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         fontStyle: 'normal',
         lineHeight: 20,
         letterSpacing: 0.25,
-        backgroundColor: 'white',
+        // backgroundColor: 'white',
         color: 'black',
     },
     textLightModeSecondary: {
@@ -26,12 +26,12 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         fontStyle: 'normal',
         letterSpacing: 0.25,
-        backgroundColor: '#FFFFFF',
+        // backgroundColor: '#FFFFFF',
         color: 'black',
     },
     inputLightMode: {
         fontSize: 42,
-        backgroundColor: 'white',
+        // backgroundColor: 'white',
         lineHeight: 46,
         fontStyle: 'normal',
         color: 'black', 
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         outlineStyle: 'none'
     },
     buttonLight: {
-        backgroundColor: 'white',
+        // backgroundColor: 'white',
         color: 'black', 
         height: 50,
         width: '100%',
