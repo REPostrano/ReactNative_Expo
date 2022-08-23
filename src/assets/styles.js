@@ -2,7 +2,7 @@ import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        paddingVertical: 20,
+        // paddingVertical: 20,
         flex: 1,
         height: '100%',
     },
@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     },
     content: {
         width: '100%',
+        // paddingVertical: 90,
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
     },
     comTextAlign: {
         flex: 1,
-        marginTop: 20
+        marginTop: 10
     },
     imageContainer: {
         width: '100%',
@@ -79,8 +80,17 @@ const styles = StyleSheet.create({
     },
     text: {
         fontWeight: '100'
-    }
-    
+    },
+    textGray: {
+        color: '#8E8E93',
+        fontStyle: 'normal',
+        fontWeight: '400',
+        fontSize: 16,
+        lineHeight: 20,
+    },
+
+
+
 });
 
 export default styles;

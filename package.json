@@ -9,7 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/poppins": "^0.2.2",
     "@expo/webpack-config": "^0.17.0",
+    "@react-native-community/cli-platform-android": "^8.0.5",
     "@react-navigation/native": "^6.0.11",
     "@react-navigation/native-stack": "^6.7.0",
     "expo": "~46.0.7",

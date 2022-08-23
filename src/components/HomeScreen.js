@@ -21,9 +21,9 @@ const HomeScreen = props => {
             <LinearGradient
                 start={{ x: 0, y: 1 }}
                 end={{ x: 1, y: 0 }}
-                colors={['#ffed00', '#1fff42']}
+                colors={['rgba(203, 214, 27, 1)', 'rgba(50, 215, 75, 1)']}
                 style={styles.buttonSecondary}>
-                <Pressable style={{ width: '100%' }} onPress={() => NavigatetoSendMoney(props)}>
+                <Pressable style={{ width: '100%'}} onPress={() => NavigatetoSendMoney(props)}>
                     <Text style={[{textAlign: 'center',}, styles.textWhite]}>Go to Send Money</Text>
                 </Pressable>
             </LinearGradient>

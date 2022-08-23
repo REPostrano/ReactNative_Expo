@@ -7,7 +7,6 @@ import SendMoneyScreen from './src/components/SendMoneyScreen'
 import ProfileMenuScreen from './src/components/ProfileMenuScreen'
 
 
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
