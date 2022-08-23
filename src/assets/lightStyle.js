@@ -7,37 +7,44 @@ const styles = StyleSheet.create({
     lightThemeText: {
         color: 'white',
         fontSize: 20,
-        fontWeight: '900',
+        fontWeight: '600',
+        fontStyle: 'normal',
+        lineHeight: 20,
     },
     textLightMode: {
-        fontSize: 18,
-        lineHeight: 21,
-        fontWeight: '900',
+        fontSize: 16,
+        fontWeight: '600',
+        fontStyle: 'normal',
+        lineHeight: 20,
         letterSpacing: 0.25,
         backgroundColor: 'white',
         color: 'black',
     },
     textLightModeSecondary: {
-        fontSize: 16,
-        lineHeight: 21,
+        fontSize: 14,
+        lineHeight: 18,
         fontWeight: '400',
+        fontStyle: 'normal',
         letterSpacing: 0.25,
-        backgroundColor: 'white',
+        backgroundColor: '#FFFFFF',
         color: 'black',
     },
     inputLightMode: {
-        fontSize: 50,
+        fontSize: 42,
         backgroundColor: 'white',
+        lineHeight: 46,
+        fontStyle: 'normal',
         color: 'black', 
-        height: 60, 
+        height: 50, 
         width: '100%', 
         textAlign: 'center',
-        fontWeight: 'bold',
+        fontWeight: '700',
+        outlineStyle: 'none'
     },
     buttonLight: {
         backgroundColor: 'white',
         color: 'black', 
-        height: 60,
+        height: 50,
         width: '100%',
     },
     textWhite: {
@@ -51,7 +58,15 @@ const styles = StyleSheet.create({
         fontSize: 50,
         color: 'black',
         fontWeight: 'bold',
+    },
+    textWhiteSM: {
+        color: 'black',
+        fontStyle: 'normal',
+        fontWeight: '600',
+        fontSize: 16,
+        lineHeight: 20,
     }
+    
 });
 
 export default styles;

@@ -7,37 +7,44 @@ const styles = StyleSheet.create({
     darkThemeText: {
         color: 'white',
         fontSize: 20,
-        fontWeight: '900',
+        fontWeight: '600',
+        fontStyle: 'normal',
+        lineHeight: 20,
     },
     textDarkMode: {
-        fontSize: 18,
-        lineHeight: 21,
-        fontWeight: '900',
+        fontSize: 16,
+        fontWeight: '600',
+        fontStyle: 'normal',
+        lineHeight: 20,
         letterSpacing: 0.25,
         backgroundColor: 'black',
         color: 'white',
     },
     textDarkModeSecondary: {
-        fontSize: 16,
-        lineHeight: 21,
+        fontSize: 14,
+        lineHeight: 18,
         fontWeight: '400',
+        fontStyle: 'normal',
         letterSpacing: 0.25,
         backgroundColor: 'black',
-        color: '#d0d0c0',
+        color: '#FFFFFF',
     },
     inputDarkMode: {
-        fontSize: 50, 
+        fontSize: 42, 
         backgroundColor: 'black',
-        height: 60, 
+        lineHeight: 46,
+        fontStyle: 'normal',
+        height: 50, 
         width: '100%', 
         textAlign: 'center',
         color: 'white',
-        fontWeight: 'bold',
+        fontWeight: '700',
+        outlineStyle: 'none'
     },
     buttonDark: {
         backgroundColor: 'black',
         color: 'white', 
-        height: 60,
+        height: 50,
         width: '100%',
     },
     textDark: {
@@ -51,7 +58,15 @@ const styles = StyleSheet.create({
         fontSize: 50,
         color: 'white',
         fontWeight: 'bold',
+    },
+    textDarkSM: {
+        color: 'white',
+        fontStyle: 'normal',
+        fontWeight: '600',
+        fontSize: 16,
+        lineHeight: 20,
     }
+   
 });
 
 export default styles;
