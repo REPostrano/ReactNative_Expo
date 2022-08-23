@@ -3,7 +3,7 @@
     "name": "SendMoneyExpo",
     "slug": "SendMoneyExpo",
     "version": "1.0.0",
-    "orientation": "automatic",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {

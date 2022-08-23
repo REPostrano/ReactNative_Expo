@@ -16,5 +16,8 @@ expo whoami
   to check who are logged in expo
 
 #Build APK
-expo build:android
+expo build:android -t apk
+
+#Fetch keystore
+expo fetch:android:keystore
 
