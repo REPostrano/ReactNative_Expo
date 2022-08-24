@@ -63,10 +63,10 @@ const SendMoneyScreen = props => {
 
     useEffect(() => {
         determineAndSetOrientation();
-        Dimensions.addEventListener('change', determineAndSetOrientation);
-        return () => {
-            Dimensions.addEventListener('change', determineAndSetOrientation)
-        }
+        const subscription = Dimensions.addEventListener(
+            "change",determineAndSetOrientation
+          );
+          return () => subscription?.remove();
     }, []);
 
     const [fontsLoaded] = useFonts({
