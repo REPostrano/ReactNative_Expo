@@ -64,9 +64,9 @@ const SendMoneyScreen = props => {
     useEffect(() => {
         determineAndSetOrientation();
         const subscription = Dimensions.addEventListener(
-            "change",determineAndSetOrientation
-          );
-          return () => subscription?.remove();
+            "change", determineAndSetOrientation
+        );
+        return () => subscription?.remove();
     }, []);
 
     const [fontsLoaded] = useFonts({
@@ -97,7 +97,7 @@ const SendMoneyScreen = props => {
                             </TouchableOpacity>
                         </View>
                         <View style={{ justifyContent: 'center', flex: 1 }}>
-                            <Text style={[{ fontFamily: 'Poppins_600SemiBold' }, themeTextPrimary]}>Marija Callas</Text>
+                            <Text style={[{ fontFamily: 'Poppins_600SemiBold' }, themeTextPrimary]}>Maria Callas</Text>
                             <View style={styles.row1}>
                                 <Text style={[{ fontFamily: 'Poppins_400Regular' }, themeTextSecondary]}>5812 9023 8431 323</Text>
                                 <Image source={require('../assets/icon/master-card.png')} style={{ width: 40, height: 40 }} />
@@ -113,7 +113,7 @@ const SendMoneyScreen = props => {
                                 actions={[editPost, viewPost]} />
                         </View>
                     </View>
-                    
+
                     <View style={[{ marginTop: orientation == 'PORTRAIT' ? 155 : 0 }, styles.content]}>
                         <Text style={[{ fontFamily: 'Poppins_400Regular' }, styles.textGray]}>
                             Available:

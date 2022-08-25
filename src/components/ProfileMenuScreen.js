@@ -34,7 +34,7 @@ const ProfileMenuScreen = props => {
         <View style={[{ height: '100%' }, themeContainerDark, styles.container]}>
             <ImageBackground source={themeContainerLight} resizeMode="cover" style={styles.image}>
                 <View style={[{ paddingTop: 48 }]}>
-                    <Pressable style={[{ flexDirection: 'row', position: 'relative',  width: '100%' }, themeButton]} onPress={() => NavigatetoSendMoney(props)}>
+                    <Pressable style={[{ flexDirection: 'row', position: 'relative', width: '100%' }, themeButton]} onPress={() => NavigatetoSendMoney(props)}>
                         {colorScheme === 'dark' ?
                             <Image source={require('../assets/icon/ic_left_arrow_light.png')} style={{ width: 25, height: 25, left: 20, position: 'absolute' }} /> :
                             <Image source={require('../assets/icon/ic_left_arrow_dark.png')} style={{ width: 25, height: 25, left: 20, position: 'absolute' }} />
